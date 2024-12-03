@@ -8,6 +8,8 @@ TO USE:
 2. change base_directory to the UE5 Data folder in the PAIR repo wherever that is stored on your computer
 3. In unreal, click on "tools" (in the top bar), scroll down to near the bottom, and click "Execute Python Script"
 4. The script should run and take screenshots that will be stored in the "Images" and "Labels" folders in UE5 Data 
+5. The first time you run the script it skips a lot of pairs for whatever reason, so run it once with not very many pairs
+    and then delete that data and run it using the real number of pairs you wanted
 '''
 
 
