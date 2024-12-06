@@ -1,0 +1,1907 @@
+﻿Log file open, 12/05/24 17:04:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=23352)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: Scene_Capture
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.4460] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-1280P"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject"""
+LogCsvProfiler: Display: Metadata set : loginid="11a9542d4521343c30ce039d858e6919"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.310983
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-92C1420B48115FF86DAE4298ADFCFA5A
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogConfig: Display: Loading Linux ini files took 0.07 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.07 seconds
+LogAssetRegistry: Display: Asset registry cache read as 22.8 MiB from ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/CachedAssetRegistry_0.bin
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Display: Created an analytics provider LogAnalytics from module AnalyticsLog configuration Engine [StudioTelemetry.Log]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlHttpThread
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogEOSSDK: Initializing EOSSDK Version:1.16.3-32303053
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.4-CL-35576357
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=11a9542d4521343c30ce039d858e6919
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Windows 11 (23H2) [10.0.22631.4460] (), CPU: 12th Gen Intel(R) Core(TM) i7-1280P, GPU: Intel(R) Iris(R) Xe Graphics
+LogInit: Compiled (64-bit): Aug 16 2024 04:10:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 48
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 134
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 12
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 13
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.RHICmdBypass:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2024.12.06-00.04.42:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2024.12.06-00.04.42:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2024.12.06-00.04.42:556][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2024.12.06-00.04.42:557][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:1]]
+[2024.12.06-00.04.42:557][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.12.06-00.04.42:557][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2024.12.06-00.04.42:557][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2024.12.06-00.04.42:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2024.12.06-00.04.42:557][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.12.06-00.04.42:558][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2024.12.06-00.04.42:561][  0]LogRHI: Using Default RHI: D3D12
+[2024.12.06-00.04.42:561][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.12.06-00.04.42:561][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.12.06-00.04.42:568][  0]LogD3D12RHI: Aftermath initialized
+[2024.12.06-00.04.42:568][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2024.12.06-00.04.42:568][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.12.06-00.04.42:639][  0]LogD3D12RHI: Intel Extensions Framework not supported by driver. Please check if a driver update is available.
+[2024.12.06-00.04.42:647][  0]LogD3D12RHI: Found D3D12 adapter 0: Intel(R) Iris(R) Xe Graphics (VendorId: 8086, DeviceId: 46a6, SubSysId: 132f1462, Revision: 000c
+[2024.12.06-00.04.42:647][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 unsupported
+[2024.12.06-00.04.42:647][  0]LogD3D12RHI:   Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8042MB of shared system memory, 1 output[s]
+[2024.12.06-00.04.42:647][  0]LogD3D12RHI:   Driver Version: 31.0.101.4032 (internal:31.0.101.4032, unified:101.4032)
+[2024.12.06-00.04.42:647][  0]LogD3D12RHI:      Driver Date: 12-21-2022
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8042MB of shared system memory, 0 output[s]
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2024.12.06-00.04.42:652][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2024.12.06-00.04.42:652][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2024.12.06-00.04.42:652][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.12.06-00.04.42:661][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.12.06-00.04.42:661][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_1
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI: D3D11 adapters:
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI: Testing D3D11 Adapter 0:
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     DeviceId    : 46a6
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     SubSysId    : 132f1462
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     Revision    : 000c
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     SharedSystemMemory : 8433412096 bytes
+[2024.12.06-00.04.42:662][  0]LogD3D11RHI:     AdapterLuid : 0 67035
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:    0. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_1)
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:       128/0/8042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI: Testing D3D11 Adapter 1:
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     Description : Microsoft Basic Render Driver
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     VendorId    : 1414
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     DeviceId    : 008c
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     SubSysId    : 0000
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     Revision    : 0000
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     DedicatedVideoMemory : 0 bytes
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     SharedSystemMemory : 8433412096 bytes
+[2024.12.06-00.04.42:775][  0]LogD3D11RHI:     AdapterLuid : 0 67687
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_1)
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:       0/0/8042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     DeviceId    : 46a6
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     SubSysId    : 132f1462
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     Revision    : 000c
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     SharedSystemMemory : 8433412096 bytes
+[2024.12.06-00.04.42:777][  0]LogD3D11RHI:     AdapterLuid : 0 67035
+[2024.12.06-00.04.42:777][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.12.06-00.04.42:777][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2024.12.06-00.04.42:777][  0]LogHAL: Display: Platform has ~ 16 GB [16866824192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.12.06-00.04.42:777][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2024.12.06-00.04.42:777][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.12.06-00.04.42:777][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.12.06-00.04.42:778][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2024.12.06-00.04.42:778][  0]LogConfig: Set CVar [[r.Shaders.WarningsAsErrors:0 ;; 0: off, 1: global shaders, 2: all]]
+[2024.12.06-00.04.42:778][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.12.06-00.04.42:778][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.12.06-00.04.42:778][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.12.06-00.04.42:778][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2024.12.06-00.04.42:778][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2024.12.06-00.04.42:778][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/Config/WindowsEditor/Editor.ini]
+[2024.12.06-00.04.42:778][  0]LogInit: Computer: MSI
+[2024.12.06-00.04.42:778][  0]LogInit: User: firek
+[2024.12.06-00.04.42:778][  0]LogInit: CPU Page size=4096, Cores=14
+[2024.12.06-00.04.42:778][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.12.06-00.04.43:119][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2024.12.06-00.04.43:120][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=34.7GB
+[2024.12.06-00.04.43:120][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2024.12.06-00.04.43:120][  0]LogMemory: Process Physical Memory: 540.91 MB used, 561.41 MB peak
+[2024.12.06-00.04.43:120][  0]LogMemory: Process Virtual Memory: 538.98 MB used, 545.35 MB peak
+[2024.12.06-00.04.43:120][  0]LogMemory: Physical Memory: 13964.77 MB used,  2120.69 MB free, 16085.46 MB total
+[2024.12.06-00.04.43:120][  0]LogMemory: Virtual Memory: 19600.53 MB used,  15940.93 MB free, 35541.46 MB total
+[2024.12.06-00.04.43:120][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.12.06-00.04.43:123][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.12.06-00.04.43:131][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2024.12.06-00.04.43:131][  0]LogInit: Using OS detected language (en-US).
+[2024.12.06-00.04.43:131][  0]LogInit: Using OS detected locale (en-US).
+[2024.12.06-00.04.43:135][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2024.12.06-00.04.43:135][  0]LogInit: Setting process to per monitor DPI aware
+[2024.12.06-00.04.43:421][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2024.12.06-00.04.43:421][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2024.12.06-00.04.43:421][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2024.12.06-00.04.43:422][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.12.06-00.04.43:432][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2024.12.06-00.04.43:432][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.12.06-00.04.43:563][  0]LogRHI: Using Default RHI: D3D12
+[2024.12.06-00.04.43:563][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2024.12.06-00.04.43:563][  0]LogRHI: Loading RHI module D3D12RHI
+[2024.12.06-00.04.43:563][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2024.12.06-00.04.43:563][  0]LogD3D12RHI: Adapter only supports up to Feature Level 'SM5', requested Feature Level was 'SM6'
+[2024.12.06-00.04.43:563][  0]LogRHI: RHI D3D12 with Feature Level SM6 is not supported on your system, attempting to fall back to RHI D3D11 with Feature Level SM5
+[2024.12.06-00.04.43:563][  0]LogRHI: Loading RHI module D3D11RHI
+[2024.12.06-00.04.43:563][  0]LogRHI: Checking if RHI D3D11 with Feature Level SM5 is supported by your system.
+[2024.12.06-00.04.43:563][  0]LogRHI: RHI D3D11 with Feature Level SM5 is supported and will be used.
+[2024.12.06-00.04.43:600][  0]LogWindows: Attached monitors:
+[2024.12.06-00.04.43:600][  0]LogWindows:     resolution: 1920x1200, work area: (0, 0) -> (1920, 1128), device: '\\.\DISPLAY1' [PRIMARY]
+[2024.12.06-00.04.43:600][  0]LogWindows: Found 1 attached monitors.
+[2024.12.06-00.04.43:600][  0]LogWindows: Gathering driver information using Windows Setup API
+[2024.12.06-00.04.43:600][  0]LogRHI: RHI Adapter Info:
+[2024.12.06-00.04.43:600][  0]LogRHI:             Name: Intel(R) Iris(R) Xe Graphics
+[2024.12.06-00.04.43:600][  0]LogRHI:   Driver Version: 31.0.101.4032 (internal:31.0.101.4032, unified:101.4032)
+[2024.12.06-00.04.43:600][  0]LogRHI:      Driver Date: 12-21-2022
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     GPU DeviceId: 0x46a6 (for the marketing name, search the web for "GPU Device Id")
+[2024.12.06-00.04.43:600][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     Description : Intel(R) Iris(R) Xe Graphics
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     VendorId    : 8086
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     DeviceId    : 46a6
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     SubSysId    : 132f1462
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     Revision    : 000c
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     DedicatedVideoMemory : 134217728 bytes
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     SharedSystemMemory : 8433412096 bytes
+[2024.12.06-00.04.43:600][  0]LogD3D11RHI:     AdapterLuid : 0 67035
+[2024.12.06-00.04.43:702][  0]LogD3D11RHI: Intel Extensions loaded requested version for UAVOverlap: 1.1.0
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: Intel Extensions loaded requested version Atomics Version: 3.4.1
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: Intel Extensions Framework enabled
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: Async texture creation enabled
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: D3D11_MAP_WRITE_NO_OVERWRITE for dynamic buffer SRVs is supported
+[2024.12.06-00.04.43:703][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.12.06-00.04.43:718][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2024.12.06-00.04.43:723][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2024.12.06-00.04.43:724][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.12.06-00.04.43:732][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyReport_0.log" -log="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyLog_0.log" -project="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject"  -platform=all'
+[2024.12.06-00.04.43:732][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyReport_0.log" -log="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyLog_0.log" -project="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject"  -platform=all" ]
+[2024.12.06-00.04.43:762][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2024.12.06-00.04.43:762][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2024.12.06-00.04.43:762][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2024.12.06-00.04.43:762][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2024.12.06-00.04.43:762][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2024.12.06-00.04.43:762][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2024.12.06-00.04.43:762][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2024.12.06-00.04.43:762][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2024.12.06-00.04.43:763][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.12.06-00.04.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.12.06-00.04.43:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.12.06-00.04.43:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.12.06-00.04.43:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.12.06-00.04.43:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2024.12.06-00.04.43:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.12.06-00.04.43:792][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.12.06-00.04.43:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2024.12.06-00.04.43:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2024.12.06-00.04.43:796][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2024.12.06-00.04.43:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.12.06-00.04.43:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2024.12.06-00.04.43:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.12.06-00.04.43:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.12.06-00.04.43:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.12.06-00.04.43:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.12.06-00.04.43:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.12.06-00.04.43:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2024.12.06-00.04.43:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.12.06-00.04.43:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.12.06-00.04.43:822][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2024.12.06-00.04.43:833][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.12.06-00.04.43:884][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   VVM_1_0
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2024.12.06-00.04.43:887][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2024.12.06-00.04.43:887][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2024.12.06-00.04.43:890][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2024.12.06-00.04.43:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.12.06-00.04.43:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2024.12.06-00.04.43:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.12.06-00.04.43:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2024.12.06-00.04.43:927][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2464 MiB)
+[2024.12.06-00.04.43:927][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.12.06-00.04.43:928][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2024.12.06-00.04.43:928][  0]LogZenServiceInstance: Found Zen config default=C:/Users/firek/AppData/Local/UnrealEngine/Common/Zen/Data
+[2024.12.06-00.04.43:928][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2024.12.06-00.04.43:928][  0]LogZenServiceInstance: Installed version at 'C:/Users/firek/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2024.12.06-00.04.43:929][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2024.12.06-00.04.43:932][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2024.12.06-00.04.43:943][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2024.12.06-00.04.43:950][  0]LogDerivedDataCache: C:/Users/firek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2024.12.06-00.04.43:950][  0]LogDerivedDataCache: Display: C:/Users/firek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=1246.23MBs, RandomWriteSpeed=179.93MBs. Assigned SpeedClass 'Local'
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/firek/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2024.12.06-00.04.43:951][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2024.12.06-00.04.43:952][  0]LogShaderCompilers: Guid format shader working directory is -72 characters bigger than the processId version (../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/Shaders/WorkingDirectory/22004/).
+[2024.12.06-00.04.43:952][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/firek/AppData/Local/Temp/UnrealShaderWorkingDir/F21A086B4A4F8F93C862ADACBAB7526B/'.
+[2024.12.06-00.04.43:952][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.12.06-00.04.43:952][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 10 workers.
+[2024.12.06-00.04.43:954][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.12.06-00.04.43:961][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.12.06-00.04.45:006][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2024.12.06-00.04.45:921][  0]LogSlate: Using FreeType 2.10.0
+[2024.12.06-00.04.45:921][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.12.06-00.04.45:923][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2024.12.06-00.04.45:923][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2024.12.06-00.04.45:925][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.12.06-00.04.45:925][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2024.12.06-00.04.45:925][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.12.06-00.04.45:925][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2024.12.06-00.04.45:942][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2024.12.06-00.04.45:945][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2024.12.06-00.04.45:947][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/CachedAssetRegistry_*.bin.
+[2024.12.06-00.04.46:126][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2024.12.06-00.04.46:126][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.12.06-00.04.46:126][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2024.12.06-00.04.46:128][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2024.12.06-00.04.46:128][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2024.12.06-00.04.46:152][  0]LogDeviceProfileManager: Active device profile: [0000087BFC2CC000][0000087BF7227800 66] WindowsEditor
+[2024.12.06-00.04.46:152][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2024.12.06-00.04.46:153][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.12.06-00.04.46:159][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.12.06-00.04.46:160][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.18362.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.19041.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2024.12.06-00.04.46:163][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyReport_1.log" -log="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyLog_1.log" -project="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject"  -Device=Win64@MSI'
+[2024.12.06-00.04.46:163][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.4/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyReport_1.log" -log="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/TurnkeyLog_1.log" -project="C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scene_Capture.uproject"  -Device=Win64@MSI" -nocompile -nocompileuat ]
+[2024.12.06-00.04.46:285][  0]LogMaterial: Display: WorldGridMaterial-SM5-Default: MATSM_F352F674A0D503790A5235582FBA6412_PCD3D_SM5_-467229472__BC5N_NoCCBN_NoIris_DEV_SL_LWC2_PreExp_DBuf_UnInt_DXC0_VFO_LFV_LTRRT_SKYATM_SKYHF_SLWSMDLT_STRDSTRIP_gs1_sdct_VRS_VT-0-0-1-0_MIN_PJC_DF_VED_Aniso-1_ComprOodle_Compr2_Lev4_ExclNonPipSh-1_LWC-2097152_3016135758_SKPassThrough1DB6FCC63A5C44EA751315CBC3EF5DDED_Num_SM5_FL_0000000d_MFA_00000008_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_9107FBCE4C95329989F3AF1F988A1B948D5415DB___TShadowDepthPSPixelShadowDepth_PerspectiveCorrect0_0_00BA6C9B8E198325012E7CF76CB7C5291CF229D0DC42029D3A7877F6520B43A3D0406C57469EABB8F_FLumenCardPS<false>0_0_03E16DC0C5BF41EC01552ED84CD1509555C29050BC4CE29BE25F7A4B1586CA4C1685BCF80731FE636_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect0_0_00BA6C9B8E198325012E7CF76CB7C5291CF229D0D9FC66713AD9ABF570AFA2305B93FC5C738D84F68_TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF378BB459A7F0DBAC5232AC3C6813D7A1C9C1E037A6F_TLightMapDensityPSTLightMapPolicyHQ0_0_07222847C70AF7BEA9FD37D98F0C14F49953E8400AA270EEF413621E0C116C79AC656F988F24413AF_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA1885C6BD5C13C615A2D1CC7B629C1649D7904633_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA1885C6BD5C13C615A2D1CC7B629C1649D7904633_TBasePassPSTLightMapPolicyLQSkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA5B3BB4576FCE1858D2FA513C5CF3DFFA9D6231E6_TBasePassPSTLightMapPolicyLQSkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA5B3BB4576FCE1858D2FA513C5CF3DFFA9D6231E6_FLandscapeGrassWeightVS0_0_048D8060A4E964C5C787E9DD6490BE40950B996DA1F4AE6CD573C588EA0E0A5701A067C736DB871F2_TLightMapDensityVSFNoLightMapPolicy0_0_07222847C70AF7BEA9FD37D98F0C14F49953E8400E68740D56C01795CB8F3A41716DC323A4B0E4A02_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA58C0ACF387F70E172DF585AA01C84B8418428E2B_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA58C0ACF387F70E172DF585AA01C84B8418428E2B_FHitProxyVS0_0_0E4C9B6397777DE153A14DB50DC6BC36366094557B310836A0A5C4DC6F9C6787D82A95787504887EA_FHitProxyPS0_0_00B92DFC1B903E7D52866045E7E066F0D424133E398FD96E02A532D7E415E04CB58A1437B3DE55B9E_FLandscapeGrassWeightPS0_0_048D8060A4E964C5C787E9DD6490BE40950B996DA06AC8289474264FCB183613EA9196A3F141417F9_TBasePassPSFNoLightMapPolicy0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA79B90F6A1A762E35DCA6B7044315B042B3A9DE8B_TBasePassPSFNoLightMapPolicy1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA79B90F6A1A762E35DCA6B7044315B042B3A9DE8B_TShadowDepthVSVertexShadowDepth_OutputDepth0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF378D282FE23662B6F8212138E16FD40FFF30C979CA0_TDepthOnlyVS<true>0_0_03809D327566D79B7D003D609F3FFBC28CB24CA5DBE22A860DB786AA9A7DE7C711953CC3F484404A4_FLandscapePhysicalMaterialPS0_0_01BFCB38015EA018875516BDAB9AA63886CC221D1989E524D02800C279740896F656A4B888BE14513_TLightMapDensityVSFDummyLightMapPolicy0_0_07222847C70AF7BEA9FD37D98F0C14F49953E840018803B83B28CDED9C48845B0B2ABC57FE549565C_FLumenCardVS0_0_009BA6531C9DF6B65C5602013A7552F40E0F93A69ABD0E94E9F2FDE303EA0054320ED4096AB87BEA7_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy0_0_04309B802513C0E1FA208A859F63E1C63721CF5AE68F0B29CECEC60752AD4E2F4479E3479A9544217_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDAD125B9380CFE1C82C03BB907DBE95DE267E4AA1F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDAD125B9380CFE1C82C03BB907DBE95DE267E4AA1F_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDACA38D76CBB88E8E35C9A8EC7B1CB5EB263A39605_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDACA38D76CBB88E8E35C9A8EC7B1CB5EB263A39605_TBasePassPSTLightMapPolicyHQ0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA804894D114BDC7D7CCA483C383426229EB505ECB_TBasePassPSTLightMapPolicyHQ1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA804894D114BDC7D7CCA483C383426229EB505ECB_TLightMapDensityPSFDummyLightMapPolicy0_0_07222847C70AF7BEA9FD37D98F0C14F49953E8400155D979E9D1F3559A69AB78660BE10F9E4ABAB2D_TBasePassPSFCachedPointIndirectLightingPolicySkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDACBB5826133D9E53D0E6872AEE7FE4451B5DA3340_TBasePassPSFCachedPointIndirectLightingPolicySkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDACBB5826133D9E53D0E6872AEE7FE4451B5DA3340_FTranslucentLightingInjectPS0_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS1_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS2_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS3_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS4_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS5_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS6_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS7_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS8_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS9_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS10_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS11_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS12_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS13_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS14_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS15_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS16_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS17_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS18_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS19_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS20_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS21_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS22_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS23_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS24_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS25_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS26_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS27_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS28_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS29_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS30_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_FTranslucentLightingInjectPS31_0_0F7BEB51EF1AB4ADCC04A1AC0202D1951EA605A291C6338A978F9356F36802E13F8A3E50683C0C140_TBasePassVSFCachedPointIndirectLightingPolicy0_0_04309B802513C0E1FA208A859F63E1C63721CF5AEBC455CF5461179D683FC22723024276683512BF2_TBasePassPSFCachedPointIndirectLightingPolicy0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA567497BE8A730EE9D61E10D7F18B32D891846AC8_TBasePassPSFCachedPointIndirectLightingPolicy1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA567497BE8A730EE9D61E10D7F18B32D891846AC8_FVelocityPS0_0_0E7FCCF430B01758CCFED8AA8F94A4AEF0020B7BC71766E222D75D9042433F7E54424227CD4AF7F85_TBasePassPSFCachedVolumeIndirectLightingPolicy0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDAE8E63E50D815609BA40DD40A8C088E2387FA3BF0_TBasePassPSFCachedVolumeIndirectLightingPolicy1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDAE8E63E50D815609BA40DD40A8C088E2387FA3BF0_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF3787188663C9C337316BBABCDC605C6F3CE449BB27D_TBasePassPSFCachedVolumeIndirectLightingPolicySkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA27C2A77E6D84B54989B82D51CEC865B004FB6010_TBasePassPSFCachedVolumeIndirectLightingPolicySkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA27C2A77E6D84B54989B82D51CEC865B004FB6010_TLightMapDensityPSFNoLightMapPolicy0_0_07222847C70AF7BEA9FD37D98F0C14F49953E840076F07DBCFA0AC7DA5684426030FD7E2B83F8BFEB_TLightMapDensityVSTLightMapPolicyLQ0_0_07222847C70AF7BEA9FD37D98F0C14F49953E8400AEC27E29B9DAB2C6DACEED2C9FEB36BF92895105_TBasePassVSTLightMapPolicyHQ0_0_04309B802513C0E1FA208A859F63E1C63721CF5AE5F272A7585E9FFDC79C7571A81C3C439883833B4_FLandscapePhysicalMaterialVS0_0_01BFCB38015EA018875516BDAB9AA63886CC221D130384436A244F15C2A1AC2311008523E497AAEF3_TBasePassPSFNoLightMapPolicySkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDABA5E9450E4A86AA1AF225295A8E1A3A9DBADD643_TBasePassPSFNoLightMapPolicySkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDABA5E9450E4A86AA1AF225295A8E1A3A9DBADD643_TBasePassVSFCachedVolumeIndirectLightingPolicy0_0_04309B802513C0E1FA208A859F63E1C63721CF5AE131E76D986983209B45EA2D142B5BD6EC0D7641E_TShadowDepthPSPixelShadowDepth_OnePassPointLight0_0_00BA6C9B8E198325012E7CF76CB7C5291CF229D0D3C048F707CE1A01E3684B1A19B1BE149828CE519_TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF3786F63A2867FA005A1D9974353C1F05C64FB02CAA1_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_04309B802513C0E1FA208A859F63E1C63721CF5AEBB50094D0051C52FF7242BC71DAD0BEFD0CC10E9_TShadowDepthVSVertexShadowDepth_OnePassPointLight0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF37879BBC5F9C26CAC4ECD0A28D008BDC971EA966340_TBasePassPSTLightMapPolicyLQ0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDABB2FAE6C3703A6FD3741EA0B7E1660D21FC30A92_TBasePassPSTLightMapPolicyLQ1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDABB2FAE6C3703A6FD3741EA0B7E1660D21FC30A92_TLightMapDensityPSTLightMapPolicyLQ0_0_07222847C70AF7BEA9FD37D98F0C14F49953E84005D8ED7FF1587BDFFD7ADCB8D75DD623ADF66D618_TBasePassVSTLightMapPolicyLQ0_0_04309B802513C0E1FA208A859F63E1C63721CF5AE78D60CAF7896988BA3EE748764C473DF7D87A225_TLightMapDensityVSTLightMapPolicyHQ0_0_07222847C70AF7BEA9FD37D98F0C14F49953E8400D34D34F5B8BAE168699B8A5F94ABC294AED01E82_FDebugViewModePS0_0_0E42838508A53E1FED4CE1CF8514B114D784FFBCDDF0CA379DEB49D5A761AF88AFBFA2D788472C2A8_TBasePassPSTLightMapPolicyHQSkylight0_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA7EB3FD4458D6647359B2220BD6EF34740007D430_TBasePassPSTLightMapPolicyHQSkylight1_0_03517BACA44D85EF64B75C82220BE571DFDE6FEDA7EB3FD4458D6647359B2220BD6EF34740007D430_TDepthOnlyVS<false>0_0_0BB7F1C2084BC625A88ECD1AF94860160E1D3B695B3153FF105D7471808BB3B136D47DA9F9C9D7EB3_FVelocityVS0_0_0E7FCCF430B01758CCFED8AA8F94A4AEF0020B7BCC5B3590AE58B27781A1B627B03D72564730B8C51_FDebugViewModeVS0_0_0958E8C037DDBBDC48ADD101352D6EA76BD79C59798A189555FB5DFA3B16EC9000FC35B7613C050B9_TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly0_0_0FDDDD7613D94ED7AF910F85982311631DB4EF3784449D1779A17BA029521B676974C013CAD4F1D63_TBasePassVSFNoLightMapPolicy0_0_04309B802513C0E1FA208A859F63E1C63721CF5AE2FFFCF4957148C3B70889CC78A43EF8951CBB13C_DepthPosOnlyNoPixelPipeline3809D327566D79B7D003D609F3FFBC28CB24CA5D_VelocityPipelineEC3AE026EDE631CE2396DB75C122B625C60F6328_DepthNoPixelPipelineBB7F1C2084BC625A88ECD1AF94860160E1D3B695_FGPUSpriteVertexFactory245FB466A2A94E1A1436B691BFD0A7AD3AAB15226F4AA5ED14228FB7E8DA60EA4B587BD3239FAD94B9CA513CCBA4F1E3AF7D9556DD0F2FF45E951E1A_FNiagaraRibbonVertexFactoryD19292AE439B9BA2AF405539D8C979D72ADDB9DAA5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966DE03DD13CEAD2D60503F2AAC85D4762994EF4025A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966_TGPUSkinAPEXClothVertexFactoryDefault0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FParticleSpriteVertexFactory50F1F3C21861C59B390701CCEFB63753852D229FF99E1B0FB635933CEEAC41CF9441DF5EA4A994CA9DAE5A7C55936FD50BC3B20BD063C1832A4D4247_TGPUSkinVertexFactoryUnlimited0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7180376A7171B50BD465E9983F32BCB5A07542FE7_FVectorFieldVisualizationVertexFactory36404C380DD96CD0872E9BBEDDFAD1A6E72AA01DCC854D8E74FEAEF90804D69AF6B78BD07A141ACC_FNiagaraMeshVertexFactoryF3FBD77A8F4B4A38338B697D58BDAC7AB8D5B27C4B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9571BD81B2CBA1F364F28A837532353718EB814537B4B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9574B3A20E0CA93D5CA5A60C16EF2EB14EA073FC957_FParticleBeamTrailVertexFactory9B4864381849C227417F59C2CD595ADF65DE8972378BBDDEC2CEAC35A309C357B38D702E7981D5D3_TGPUSkinVertexFactoryDefault0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7180376A7171B50BD465E9983F32BCB5A07542FE7_TGPUSkinAPEXClothVertexFactoryUnlimited0F340724BA3C76DE470CCD6BD08D3B137D0CF9D7BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FGeometryCollectionVertexFactory74DF12C20858E13A6E65317951D0E79E184025DB49D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC41_FLandscapeXYOffsetVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FMeshParticleVertexFactory8E5462CD108F3ACF9C2D93B79DB64B3906833D1AF773920348F231C490A74B1A551F8CE3ABF04791_FInstancedStaticMeshVertexFactory1808145E713BFCB3CC3257922C12D5C1B321869739A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD39A00A3AF8434811E9EA9890B934C37C364D15CD_FSplineMeshVertexFactory1808145E713BFCB3CC3257922C12D5C1B3218697A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965_FLocalVertexFactory1808145E713BFCB3CC3257922C12D5C1B321869781418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E_FLandscapeVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FNiagaraSpriteVertexFactoryACB1629DF3CA3124277348B8C5E6DFA8BCE4390C5957CFEE095AEFFBA7F83F09F020F15CF6555718EFF166204144512228FF7A163011544EEF3FD2265957CFEE095AEFFBA7F83F09F020F15CF65557185957CFEE095AEFFBA7F83F09F020F15CF6555718_FGeometryCacheVertexVertexFactory74ADC0A3F4354AA5B6F6B8CDE88F0843E005C5DD76143182082C57C6F98756E7AE927ED26DD4479A76143182082C57C6F98756E7AE927ED26DD4479A_FLandscapeFixedGridVertexFactory9C72E626AD265877B69662468B699912974F62553F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB_FLandscapeTileVertexFactory9C72E626AD265877B69662468B699912974F6255B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCESPM_d0dd0cfdf09b3e581937333562ee3ff1fabbcfe52ef2e02d62fb52ae9e62c317SPM_89d2e11bbb81b3f9ca7deb28b92d425dba5b46b2826ca1b3f62062fb141a9055SPM_4313f3f49766b482d25abee0729864e2637caaa2c8359ca9a5ec5e52b19a4a74SPM_9ad64688c87d417670bf84d9164b7ff0c7fd5648d64f90605d4f5ccd62b1582fSPM_2c57d0a836509d36c7c166415bfeb15e0ef573dcd9b4603cf1538f7314f9243dSPM_6317586e85ff33e53f3e2a8924a75b9a477bf2856e71b76add6e9afa5b77a4b4SPM_e6cac58906497aa6a3240ec32a5b52a2e9e97391b9a24e44a022e67fcade440bSPM_86d0c84beb6cce721197426e35f24a231b8d3b3dcfaad4ac7e7cb5869ec16cb2SPM_ff7b878748b7492a8bfbb1d213e0de922e7d1ad4e5c007d89539a25e116fe2a5SPM_f246e4150b5da0c4990d8d9cde3e7bc9ee28109026282556e7079fb5bfdac477SPM_aa661c84dbf8f659fa074577f1cbf28605bf282f383c32fbea060da3d871c48bSPM_54a1312cf73db2c90c5ed5f36724cf7f386b575e0cdac7da6333551840860f28SPM_b902cb58365a597ab0b6fe8cf87ae04d551e6747d32c37d928b8157fd3eba5c0SPM_8067665b18a33a3fe76b4d2cb7efaae4a7d5d674bfcd16014ec75d22aa43e477SPM_e2f081515cc3d0ef0996e2c8f9e1a75166b3cc6cdf0f28a7851d4ec175056c74SPM_36d1d796bf3fb73ccd892afb1b779f503d696f05fd480468b72f5ef66020825cSPM_83dbf399e330e02ba06c94ef9626063f802e7dad4acecf70bd8dc6046d1c22bbSPM_4a9d07239f86cc5310d60e8af0f25edf06a7d9ea4a2cac6d8cec6a1602c017a9SPM_16580fe885dc965c263d5eaad54b525a074fe46b65804a2a9a8eeb6c60d81eccSPM_1da6a996912903dde41c496fbb90ab8b7a56a37d91e64fd22c93b23c3291cf38SPM_39378479a4394fe666719b48f96d91dd0fee16fbd4d833039c8057d35bfe994eSPM_117e6119542e172878eb8d8df821dc98b3b1a14df286a76bb6d7944757abb01cSPM_1abdcf528b27ee15ea112606f7deb0e2bf1615c76e72788521d73027ce1f58d5SPM_d7362c400bb066129c0a26e9fd812e883f0c4289c0407b8538c36ce3ffffc6beSPM_558881d4ac12138fcbcdfe48514387b4d97e3917d7af9d06e82d66a738436156SPM_c950e2748d33543963b877521828efae284bd631b6d3208cb86d15e3d6ac302fSPM_9cdc2e108d4933f77f45b419a1ff9766781d1e07d02f2ea021820a33f42561adSPM_8f2515f426db488db7287a059c05dc2cec22cfd7015d224934fbfbdf45e2c2fdSPM_555ae49bc0bf3433782cfddb991b9368a60e332df25860d228a3a8a615d5a301SPM_555ae49bc0bf3433782cfddb991b9368a60e332df25860d228a3a8a615d5a301SPM_eb8cf9f28765a64d7c29571f94e23818d215aa32f207f5e51332108f6fb34b41SPM_9429704e8be195f35baecc89e09a1d838ba2a5bd5531c47e77f0c1021d0ea3faSPM_f848405a4bb32d0fbb35c92b345a9c5ffbd711de556a9112d23792383b0ae532SPM_44cfd7856989e0d50b86ae467107f8cb1927d4c4ac69e4400cc83861f7c2587fSPM_5ba0c5b7c5677cfc80f9c206abf3f2281b0c59cf7534bc2c0c3040647bc959d3SPM_0f404960686934579767c414c4832022399bdada3fdee85648dd5ddc66cdc18bSPM_32f96e6e78e74918b7a804031de07f41b26a0f4e028cfbf2d1f67a366b3b4653SPM_35ddf07c29b7ba174b82f284a0659e75175dffbdb1e5bcfbb8be87ef8e1351f9SPM_1cb9f91b85bc88250891e97b8ee57a007548ecc77f178fd11b011f742ada03c3SPM_3b8fafd4358c1af5a086884104678b1dfd2e193bfae2d80ab85be9b6ad7bd2f2SPM_8668a6a7bc90628c6b9b7bc642165f78499f54c0bad7054bd40be5d5b16027a9SPM_1b6a9f1a9b735e886581d6d6dcf008a2c7fc72bafbf9099d1f86d7fbd8c9844cSPM_d325b6eff66cabe6e04198f43035cf6635b9b462dff8ae44df5c0cbe3de6cf30SPM_039985d77c1c1471b03049c2bf8ef2d29fea7464cb33519e9049b37ddcda731fSPM_2379ae40c9a93d1354f571759773506590e9bd6d2be3b959dc2ab0dca7e60fe4SPM_f6481c86c24d5e8e86b711ed96952ba756b1b40357dd9cadb41c22ae0d52834bSPM_a2ca952d5d0c16a12b0eca91df068d9ce926000b17be062f97ba31ac64039a67SPM_e99122b96c86762ba069e73393d36dd9e7886cd1e40a4c23c10949dc4144ff77SPM_c4fd33b245ca554105394a55a3b11ebe5ab14de075817620e79925a15f1d4e79SPM_43a005e78e6f2c8487fe442a8b0f2ecb2a8396fdd0dd05d0d6830486fa5280c9SPM_debd3b9cc3bd312d9214df237fa1d9744029bd0edcad0840bb3b5c8029fcd238SPM_729f279cb55c14a86674481c57e40fb61e9dd97072c662bfef60a2a568940f4eSPM_bb4e74f7221fb542e41cb3df0f9f9e4a99fd5f726e8d57fbd7664cc2c2b4d227SPM_212dd557778bf53736b95bebf4695b9895831af7743bf4f024d9b511e0c2d54bSPM_c1b18e33b7dee0ef9484fb4cee1d3ba679afd1eda5bbd346e54a3cd3e78c744aSPM_48630cd959fe3e36f7956b88e42d315bae59f4c944e73ebc00038e7f30cdd0b2SPM_8aba731ad44e3a707b51569410dec477ae09100f5bc6b0ad01ae6ac470b3876aSPM_caf44f3686659bb5161b05d968c1b10a21cd0bf51ac06bc73dc9d1492630313bSPM_5ca6927bd2331ea4a166686786263efa114a15c4a923633fb1e6b2fbca1005f0SPM_7a8859af6bf08dbff30fc6fcf3aa44eae2b5708485554da1535146f5ab7d1e6cSPM_1abeee29937f4f1f7bcbd889e379941b812ccb972f89fc23883577de1d19934eSPM_79a3f872f11713ceb40a20a8ae2879efe8627b56b619c57fe7eaba8446f9cb7aSPM_83c91dc56084b394948dc5f6a1c235b7d1705b51e910473043ea3e465b2aebc6SPM_8917a03e1e52e3b2c09594c402821ccaaabba029aebfa0f444faeb2c184f9501SPM_98e11b36ef3d6e4dc166bfc6020842cb5ad6481ef73003a086fd4cdf34885068SPM_b1aea2149ccb4b0d4c0ab0341778dc129f23e5e950bac882f27aec0133e7868aSPM_9495972c6977dcdfbe9b612c8d4675322b440b71427e749eb2ec568af89d8126SPM_dab238b1b2d52a66c17a2ac261384aaf7ace7ffc6cecacd7b12495131d73b305SPM_db11416980d7f513dc0e1e08a8df85b346a02b99b3dfcc1a6c49176898f046c7SPM_541c1655b0d68ad383b066d35023f38d7a2cce3fb8721a555664c6c209d5210bSPM_ff1dbf153d71c358113cfa5bf6cb96774cf6bd6258a13262cea51a28b5b08912433AFC833894B7681A1D3DDBA35F7F5A9509A899DA39A3EE5E6B4B0D3255BFEF95601890AFD8070900000000000000000000000000000000000000006E2AD9D86FE73F9DF5783D7E68BD0915331357DA_001_101_5;
+_MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3F5F9_
+[2024.12.06-00.04.46:352][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.12.06-00.04.46:352][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2024.12.06-00.04.46:352][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.12.06-00.04.46:352][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2024.12.06-00.04.46:352][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.12.06-00.04.46:786][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2024.12.06-00.04.46:786][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2024.12.06-00.04.46:794][  0]LogUObjectArray: 22203 objects as part of root set at end of initial load.
+[2024.12.06-00.04.46:794][  0]LogUObjectAllocator: 6109744 out of 0 bytes used by permanent object pool.
+[2024.12.06-00.04.46:794][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.12.06-00.04.46:799][  0]LogLiveCoding: Display: Starting LiveCoding
+[2024.12.06-00.04.46:799][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2024.12.06-00.04.46:802][  0]LogLiveCoding: Display: First instance in process group "UE_Scene_Capture_0x08eee25a", spawning console
+[2024.12.06-00.04.46:806][  0]LogLiveCoding: Display: Waiting for server
+[2024.12.06-00.04.46:827][  0]LogSlate: Border
+[2024.12.06-00.04.46:827][  0]LogSlate: BreadcrumbButton
+[2024.12.06-00.04.46:827][  0]LogSlate: Brushes.Title
+[2024.12.06-00.04.46:827][  0]LogSlate: Default
+[2024.12.06-00.04.46:827][  0]LogSlate: Icons.Save
+[2024.12.06-00.04.46:827][  0]LogSlate: Icons.Toolbar.Settings
+[2024.12.06-00.04.46:827][  0]LogSlate: ListView
+[2024.12.06-00.04.46:827][  0]LogSlate: SoftwareCursor_CardinalCross
+[2024.12.06-00.04.46:827][  0]LogSlate: SoftwareCursor_Grab
+[2024.12.06-00.04.46:827][  0]LogSlate: TableView.DarkRow
+[2024.12.06-00.04.46:827][  0]LogSlate: TableView.Row
+[2024.12.06-00.04.46:827][  0]LogSlate: TreeView
+[2024.12.06-00.04.46:938][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2024.12.06-00.04.46:939][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.771 ms
+[2024.12.06-00.04.46:955][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2024.12.06-00.04.46:955][  0]LogInit: XR: MultiViewport is Disabled
+[2024.12.06-00.04.46:955][  0]LogInit: XR: Mobile Multiview is Disabled
+[2024.12.06-00.04.47:185][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2024.12.06-00.04.47:321][  0]LogPython: Using Python 3.11.8
+[2024.12.06-00.04.47:650][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2024.12.06-00.04.48:011][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2024.12.06-00.04.48:283][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 297763079329404B800000000000D000 | Instance: 688CFD63486F6380BB32A2904CF8D1AD (MSI-22004).
+[2024.12.06-00.04.48:365][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.12.06-00.04.48:370][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.12.06-00.04.48:370][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:49667'.
+[2024.12.06-00.04.48:374][  0]LogUdpMessaging: Display: Added local interface '10.84.5.144' to multicast group '230.0.0.1:6666'
+[2024.12.06-00.04.48:524][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.12.06-00.04.48:545][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2024.12.06-00.04.48:714][  0]SourceControl: Revision control is disabled
+[2024.12.06-00.04.48:725][  0]SourceControl: Revision control is disabled
+[2024.12.06-00.04.48:943][  0]LogOpenImageDenoise: OIDN starting up
+[2024.12.06-00.04.49:299][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.12.06-00.04.49:321][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.12.06-00.04.49:321][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.12.06-00.04.49:412][  0]LogCollectionManager: Loaded 0 collections in 0.002191 seconds
+[2024.12.06-00.04.49:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/Collections/' took 0.00s
+[2024.12.06-00.04.49:415][  0]LogFileCache: Scanning file cache for directory 'C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Content/Developers/firek/Collections/' took 0.00s
+[2024.12.06-00.04.49:417][  0]LogFileCache: Scanning file cache for directory 'C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Content/Collections/' took 0.00s
+[2024.12.06-00.04.49:465][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2024.12.06-00.04.49:465][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2024.12.06-00.04.49:467][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.12.06-00.04.49:467][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2024.12.06-00.04.49:467][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.12.06-00.04.49:467][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2024.12.06-00.04.49:517][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.16.3-32303053 booting at 2024-12-06T00:04:49.516Z using C
+[2024.12.06-00.04.49:517][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.22621.4391.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Scene_Capture, ProductVersion=++UE5+Release-5.4-CL-35576357, IsServer=false, Flags=DisableOverlay]
+[2024.12.06-00.04.49:520][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2024.12.06-00.04.49:524][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2024.12.06-00.04.49:549][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2024.12.06-00.04.49:555][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2024.12.06-00.04.49:555][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2024.12.06-00.04.49:555][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000706
+[2024.12.06-00.04.49:557][  0]LogFab: Display: Logging in using persist
+[2024.12.06-00.04.49:679][  0]LogClass: Error: BoolProperty FFabAssetMetadata::IsQuixel is not initialized properly. Module:Fab File:Private/FabBrowserApi.h
+[2024.12.06-00.04.49:679][  0]LogClass: Display: 1 Uninitialized script struct members found including 0 object properties
+[2024.12.06-00.04.49:712][  0]LogAutomationTest: Error: LogClass: BoolProperty FFabAssetMetadata::IsQuixel is not initialized properly. Module:Fab File:Private/FabBrowserApi.h [log]
+[2024.12.06-00.04.49:712][  0]LogEngine: Initializing Engine...
+[2024.12.06-00.04.49:716][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.12.06-00.04.49:842][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2024.12.06-00.04.49:866][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.12.06-00.04.49:867][  0]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Temp/Untitled_0.Untitled'.
+[2024.12.06-00.04.49:879][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.12.06-00.04.49:879][  0]LogInit: Texture streaming: Enabled
+[2024.12.06-00.04.49:889][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.4.4-35576357+++UE5+Release-5.4
+[2024.12.06-00.04.49:896][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.12.06-00.04.49:902][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.12.06-00.04.49:903][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.12.06-00.04.49:903][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2024.12.06-00.04.49:903][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2024.12.06-00.04.49:905][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2024.12.06-00.04.49:905][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2024.12.06-00.04.49:908][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: AudioInfo: 'RADA' Registered
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.06-00.04.49:911][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.06-00.04.49:911][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.06-00.04.49:916][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.06-00.04.50:310][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.12.06-00.04.50:311][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.06-00.04.50:313][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.06-00.04.50:313][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.06-00.04.50:313][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.12.06-00.04.50:313][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.12.06-00.04.50:315][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.12.06-00.04.50:315][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.12.06-00.04.50:315][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.12.06-00.04.50:315][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.12.06-00.04.50:315][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.12.06-00.04.50:321][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.12.06-00.04.50:388][  0]LogInit: Undo buffer set to 32 MB
+[2024.12.06-00.04.50:388][  0]LogInit: Transaction tracking system initialized
+[2024.12.06-00.04.50:441][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/SourceControl/UncontrolledChangelists.json
+[2024.12.06-00.04.50:512][  0]LocalizationService: Localization service is disabled
+[2024.12.06-00.04.50:532][  0]TimingProfiler: Initialize
+[2024.12.06-00.04.50:532][  0]TimingProfiler: OnSessionChanged
+[2024.12.06-00.04.50:532][  0]LoadingProfiler: Initialize
+[2024.12.06-00.04.50:532][  0]LoadingProfiler: OnSessionChanged
+[2024.12.06-00.04.50:532][  0]NetworkingProfiler: Initialize
+[2024.12.06-00.04.50:533][  0]NetworkingProfiler: OnSessionChanged
+[2024.12.06-00.04.50:533][  0]MemoryProfiler: Initialize
+[2024.12.06-00.04.50:533][  0]MemoryProfiler: OnSessionChanged
+[2024.12.06-00.04.50:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Content/' took 0.02s
+[2024.12.06-00.04.50:863][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.12.06-00.04.50:900][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.12.06-00.04.50:918][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.12.06-00.04.50:921][  0]SourceControl: Revision control is disabled
+[2024.12.06-00.04.50:921][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.422
+[2024.12.06-00.04.50:946][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.12.06-00.04.50:946][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-00.04.50:946][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.12.06-00.04.50:946][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.12.06-00.04.50:949][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.06-00.04.50:953][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.12.06-00.04.51:549][  0]LogAssetRegistry: Display: Asset registry cache written as 22.8 MiB to ../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Intermediate/CachedAssetRegistry_*.bin
+[2024.12.06-00.04.51:628][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.12.06-00.04.51:629][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.12.06-00.04.51:630][  0]LogTurnkeySupport: Turnkey Device: Win64@MSI: (Name=MSI, Type=Computer, Status=Valid, MinAllowed=10.0.18362.0, MaxAllowed=, Current=10.0.22631.0, Flags="Device_InstallSoftwareValid")
+[2024.12.06-00.04.51:630][  0]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap'.
+[2024.12.06-00.04.51:635][  0]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.12.06-00.04.51:635][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.06-00.04.51:636][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.06-00.04.51:638][  0]LogStreaming: Display: FlushAsyncLoading(1): 11 QueuedPackages, 0 AsyncPackages
+[2024.12.06-00.04.52:124][  0]LogContentBundle: [FirstPersonMap(Standalone)] Creating new container.
+[2024.12.06-00.04.52:124][  0]LogWorldPartition: Display: WorldPartition initialize took 488.141 ms
+[2024.12.06-00.04.52:131][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.06-00.04.52:142][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.12.06-00.04.52:142][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.06-00.04.52:143][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.683ms to complete.
+[2024.12.06-00.04.52:178][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.681
+[2024.12.06-00.04.52:459][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-00.04.52:479][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-00.04.52:490][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-00.04.52:501][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-00.04.52:718][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:728][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:732][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:742][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:743][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:751][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:751][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:761][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:763][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:772][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:773][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:782][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:783][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:790][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:791][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:802][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:802][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:811][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.52:811][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.06-00.04.52:818][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.4/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.12.06-00.04.53:225][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.12.06-00.04.53:241][  0]LogSlate: Took 0.006412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.12.06-00.04.53:248][  0]LogSlate: Took 0.005313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.12.06-00.04.53:400][  0]LogConsoleManager: Warning: Console variable 'r.ShaderCompiler.JobCache' used in the render thread. Rendering artifacts could happen. Use ECVF_RenderThreadSafe or don't use in render thread.
+[2024.12.06-00.04.54:686][  0]LogStall: Startup...
+[2024.12.06-00.04.54:688][  0]LogStall: Startup complete.
+[2024.12.06-00.04.54:692][  0]LogLoad: (Engine Initialization) Total time: 13.19 seconds
+[2024.12.06-00.04.54:795][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.12.06-00.04.54:795][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2024.12.06-00.04.54:953][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.12.06-00.04.54:958][  0]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.043365 secs
+[2024.12.06-00.04.54:976][  1]LogAssetRegistry: AssetRegistryGather time 0.1086s: AssetDataDiscovery 0.0617s, AssetDataGather 0.0156s, StoreResults 0.0312s.
+	NumCachedDirectories 0. NumUncachedDirectories 1497. NumCachedFiles 7344. NumUncachedFiles 0.
+[2024.12.06-00.04.55:003][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2024.12.06-00.04.55:008][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2024.12.06-00.04.55:404][  4]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 5.733042
+[2024.12.06-00.04.55:406][  4]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2024.12.06-00.04.55:422][  5]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5.848104
+[2024.12.06-00.04.55:559][  6]LogSourceControl: Uncontrolled asset enumeration finished in 0.556902 seconds (Found 7319 uncontrolled assets)
+[2024.12.06-00.04.55:850][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2024.12.06-00.04.55:993][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 6.377907
+[2024.12.06-00.04.55:996][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 555705138
+[2024.12.06-00.04.55:996][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6.377907, Update Interval: 308.589752
+[2024.12.06-00.04.56:234][ 13]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: dd1...ddb Access[Expires: 2024.12.06-02.04.59 Remaining: 7200.20] Refresh[Expires: 2025-06-04T00:04:59.205Z Remaining: 15552000.21] State: Valid
+[2024.12.06-00.04.56:336][ 14]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2024.12.06-00.04.56:656][ 18]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2024.12.06-00.04.56:656][ 18]LogFab: Display: User logged in
+[2024.12.06-00.04.56:657][ 18]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2024.12.06-00.04.56:838][ 20]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-ZY9S_8HjMkucmthI2LXDcg-gZXH6_xvvE2IrwsDKNk5hw]
+[2024.12.06-00.05.46:189][232]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.12.06-00.05.49:113][378]Cmd: py "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py"
+[2024.12.06-00.05.49:155][378]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:77: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  camera_actors = unreal.GameplayStatics().get_all_actors_of_class(unreal.EditorLevelLibrary.get_editor_world(), unreal.CameraActor)
+
+[2024.12.06-00.05.49:157][378]LogPython: None Found 1 CameraActor actors!
+
+[2024.12.06-00.05.49:168][378]LogPython: None CameraActor: CameraActor_UAID_F057A68E7C7B892D02_1475304129
+
+[2024.12.06-00.05.49:180][378]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:41: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  all_actors = unreal.EditorLevelLibrary.get_all_level_actors()
+
+[2024.12.06-00.05.49:185][378]LogPython: . 
+
+[2024.12.06-00.05.49:192][378]LogPython: Time since last tick: 0.016642697155475616
+
+[2024.12.06-00.05.49:205][378]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.05.49:492][378]LogPython: . 
+
+[2024.12.06-00.05.49:513][378]LogPython: Time since last tick: 0.11101080477237701
+
+[2024.12.06-00.05.49:525][378]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.05.49:583][378]LogPython: . 
+
+[2024.12.06-00.05.49:590][378]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.05.49:602][378]LogPython: 
+Taking screenshot 2 for pair 0
+[2024.12.06-00.05.49:634][378]LogPython: . 
+
+[2024.12.06-00.05.49:645][378]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.05.49:657][378]LogPython: Taking screenshot 1 for pair 1
+
+[2024.12.06-00.05.49:677][378]LogPython: . 
+
+[2024.12.06-00.05.49:680][378]LogPython: Time since last tick: 0.05195920169353485
+
+[2024.12.06-00.05.49:692][378]LogPython: 
+Taking screenshot 2 for pair 1
+[2024.12.06-00.05.49:720][378]LogPython: . 
+
+[2024.12.06-00.05.49:727][378]LogPython: Time since last tick: 0.04175189882516861
+
+[2024.12.06-00.05.49:738][378]LogPython: Taking screenshot 1 for pair 2
+
+[2024.12.06-00.05.49:783][379]LogPython: . 
+
+[2024.12.06-00.05.49:793][379]LogPython: Time since last tick: 0.04349749907851219
+
+[2024.12.06-00.05.49:804][379]LogPython: Taking screenshot 1 for pair 3
+
+[2024.12.06-00.05.50:364][384]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.05.50:789][385]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image1.png
+[2024.12.06-00.05.50:833][385]LogPython: . 
+
+[2024.12.06-00.05.50:848][385]LogPython: Time since last tick: 0.05316310003399849
+
+[2024.12.06-00.05.50:860][385]LogPython: 
+Taking screenshot 2 for pair 3
+[2024.12.06-00.05.51:157][390]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.05.51:459][391]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image2.png
+[2024.12.06-00.05.51:559][391]LogPython: . 
+
+[2024.12.06-00.05.51:630][391]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.05.51:642][391]LogPython: Taking screenshot 1 for pair 4
+
+[2024.12.06-00.05.51:849][396]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.05.52:154][397]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image1.png
+[2024.12.06-00.05.52:276][397]LogPython: . 
+
+[2024.12.06-00.05.52:330][397]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.05.52:342][397]LogPython: 
+Taking screenshot 2 for pair 4
+[2024.12.06-00.05.52:583][402]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.05.52:889][403]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image2.png
+[2024.12.06-00.05.52:991][403]LogPython: Finished! Unregistering tick handler
+
+[2024.12.06-00.06.44:020][616]LogDerivedDataCache: C:/Users/firek/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.068 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.06-00.06.52:458][916]Cmd: py "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py"
+[2024.12.06-00.06.52:470][916]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:77: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  camera_actors = unreal.GameplayStatics().get_all_actors_of_class(unreal.EditorLevelLibrary.get_editor_world(), unreal.CameraActor)
+
+[2024.12.06-00.06.52:470][916]LogPython: None Found 1 CameraActor actors!
+
+[2024.12.06-00.06.52:514][916]LogPython: None CameraActor: CameraActor_UAID_F057A68E7C7B892D02_1475304129
+
+[2024.12.06-00.06.52:527][916]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:41: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  all_actors = unreal.EditorLevelLibrary.get_all_level_actors()
+
+[2024.12.06-00.06.52:532][916]LogPython: . 
+
+[2024.12.06-00.06.52:539][916]LogPython: Time since last tick: 0.016746003180742264
+
+[2024.12.06-00.06.52:551][916]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.06.53:311][921]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.06.53:940][922]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00000/image1.png
+[2024.12.06-00.06.53:960][922]LogPython: . 
+
+[2024.12.06-00.06.54:036][922]LogPython: Time since last tick: 0.10983739793300629
+
+[2024.12.06-00.06.54:051][922]LogPython: 
+Taking screenshot 2 for pair 0
+[2024.12.06-00.06.54:544][927]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.06.55:173][928]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00000/image2.png
+[2024.12.06-00.06.55:263][928]LogPython: . 
+
+[2024.12.06-00.06.55:334][928]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.06.55:346][928]LogPython: Taking screenshot 1 for pair 1
+
+[2024.12.06-00.06.55:702][933]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.06.56:031][934]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image1.png
+[2024.12.06-00.06.56:136][934]LogPython: . 
+
+[2024.12.06-00.06.56:204][934]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.06.56:217][934]LogPython: 
+Taking screenshot 2 for pair 1
+[2024.12.06-00.06.56:452][939]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.06.56:770][940]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image2.png
+[2024.12.06-00.06.56:918][940]LogPython: . 
+
+[2024.12.06-00.06.56:925][940]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.06.56:937][940]LogPython: Taking screenshot 1 for pair 2
+
+[2024.12.06-00.06.57:203][945]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.06.57:819][946]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image1.png
+[2024.12.06-00.06.58:001][946]LogPython: . 
+
+[2024.12.06-00.06.58:005][946]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.06.58:017][946]LogPython: 
+Taking screenshot 2 for pair 2
+[2024.12.06-00.06.58:592][951]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.06.58:915][952]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image2.png
+[2024.12.06-00.06.59:059][952]LogPython: . 
+
+[2024.12.06-00.06.59:133][952]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.06.59:145][952]LogPython: Taking screenshot 1 for pair 3
+
+[2024.12.06-00.06.59:565][957]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.06.59:941][958]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image1.png
+[2024.12.06-00.07.00:071][958]LogPython: . 
+
+[2024.12.06-00.07.00:078][958]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.00:089][958]LogPython: 
+Taking screenshot 2 for pair 3
+[2024.12.06-00.07.00:320][963]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.00:641][964]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image2.png
+[2024.12.06-00.07.00:772][964]LogPython: . 
+
+[2024.12.06-00.07.00:782][964]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.00:794][964]LogPython: Taking screenshot 1 for pair 4
+
+[2024.12.06-00.07.00:997][969]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.01:610][970]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image1.png
+[2024.12.06-00.07.01:780][970]LogPython: . 
+
+[2024.12.06-00.07.01:784][970]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.01:797][970]LogPython: 
+Taking screenshot 2 for pair 4
+[2024.12.06-00.07.02:077][975]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.02:682][976]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image2.png
+[2024.12.06-00.07.02:864][976]LogPython: . 
+
+[2024.12.06-00.07.02:941][976]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.02:953][976]LogPython: Taking screenshot 1 for pair 5
+
+[2024.12.06-00.07.03:453][981]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.03:782][982]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00005/image1.png
+[2024.12.06-00.07.03:968][982]LogPython: . 
+
+[2024.12.06-00.07.04:047][982]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.04:060][982]LogPython: 
+Taking screenshot 2 for pair 5
+[2024.12.06-00.07.04:503][987]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.04:843][988]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00005/image2.png
+[2024.12.06-00.07.05:000][988]LogPython: . 
+
+[2024.12.06-00.07.05:026][988]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.05:039][988]LogPython: Taking screenshot 1 for pair 6
+
+[2024.12.06-00.07.05:292][993]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.05:605][994]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00006/image1.png
+[2024.12.06-00.07.05:794][994]LogPython: . 
+
+[2024.12.06-00.07.05:805][994]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.05:817][994]LogPython: 
+Taking screenshot 2 for pair 6
+[2024.12.06-00.07.06:123][999]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.06:733][  0]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00006/image2.png
+[2024.12.06-00.07.06:900][  0]LogPython: . 
+
+[2024.12.06-00.07.06:906][  0]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.06:917][  0]LogPython: Taking screenshot 1 for pair 7
+
+[2024.12.06-00.07.07:350][  5]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.07:681][  6]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00007/image1.png
+[2024.12.06-00.07.07:860][  6]LogPython: . 
+
+[2024.12.06-00.07.07:872][  6]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.07:884][  6]LogPython: 
+Taking screenshot 2 for pair 7
+[2024.12.06-00.07.08:213][ 11]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.08:523][ 12]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00007/image2.png
+[2024.12.06-00.07.08:699][ 12]LogPython: . 
+
+[2024.12.06-00.07.08:700][ 12]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.08:712][ 12]LogPython: Taking screenshot 1 for pair 8
+
+[2024.12.06-00.07.09:019][ 17]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.09:332][ 18]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00008/image1.png
+[2024.12.06-00.07.09:511][ 18]LogPython: . 
+
+[2024.12.06-00.07.09:520][ 18]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.09:532][ 18]LogPython: 
+Taking screenshot 2 for pair 8
+[2024.12.06-00.07.09:898][ 23]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.10:218][ 24]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00008/image2.png
+[2024.12.06-00.07.10:399][ 24]LogPython: . 
+
+[2024.12.06-00.07.10:442][ 24]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.10:456][ 24]LogPython: Taking screenshot 1 for pair 9
+
+[2024.12.06-00.07.10:752][ 29]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.11:099][ 30]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00009/image1.png
+[2024.12.06-00.07.11:265][ 30]LogPython: . 
+
+[2024.12.06-00.07.11:271][ 30]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.11:283][ 30]LogPython: 
+Taking screenshot 2 for pair 9
+[2024.12.06-00.07.11:581][ 35]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.12:181][ 36]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00009/image2.png
+[2024.12.06-00.07.12:354][ 36]LogPython: . 
+
+[2024.12.06-00.07.12:367][ 36]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.12:379][ 36]LogPython: Taking screenshot 1 for pair 10
+
+[2024.12.06-00.07.12:811][ 41]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.13:435][ 42]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00010/image1.png
+[2024.12.06-00.07.13:626][ 42]LogPython: . 
+
+[2024.12.06-00.07.13:632][ 42]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.13:644][ 42]LogPython: 
+Taking screenshot 2 for pair 10
+[2024.12.06-00.07.14:065][ 47]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.14:389][ 48]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00010/image2.png
+[2024.12.06-00.07.14:550][ 48]LogPython: . 
+
+[2024.12.06-00.07.14:611][ 48]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.14:623][ 48]LogPython: Taking screenshot 1 for pair 11
+
+[2024.12.06-00.07.14:864][ 53]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.15:480][ 54]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00011/image1.png
+[2024.12.06-00.07.15:667][ 54]LogPython: . 
+
+[2024.12.06-00.07.15:709][ 54]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.15:721][ 54]LogPython: 
+Taking screenshot 2 for pair 11
+[2024.12.06-00.07.16:170][ 59]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.16:494][ 60]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00011/image2.png
+[2024.12.06-00.07.16:683][ 60]LogPython: . 
+
+[2024.12.06-00.07.16:687][ 60]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.16:700][ 60]LogPython: Taking screenshot 1 for pair 12
+
+[2024.12.06-00.07.17:022][ 65]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.17:340][ 66]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00012/image1.png
+[2024.12.06-00.07.17:526][ 66]LogPython: . 
+
+[2024.12.06-00.07.17:591][ 66]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.17:602][ 66]LogPython: 
+Taking screenshot 2 for pair 12
+[2024.12.06-00.07.17:905][ 71]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.18:517][ 72]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00012/image2.png
+[2024.12.06-00.07.18:686][ 72]LogPython: . 
+
+[2024.12.06-00.07.18:755][ 72]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.18:768][ 72]LogPython: Taking screenshot 1 for pair 13
+
+[2024.12.06-00.07.19:209][ 77]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.19:531][ 78]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00013/image1.png
+[2024.12.06-00.07.19:727][ 78]LogPython: . 
+
+[2024.12.06-00.07.19:736][ 78]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.19:748][ 78]LogPython: 
+Taking screenshot 2 for pair 13
+[2024.12.06-00.07.20:044][ 83]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.20:670][ 84]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00013/image2.png
+[2024.12.06-00.07.20:838][ 84]LogPython: . 
+
+[2024.12.06-00.07.20:912][ 84]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.20:925][ 84]LogPython: Taking screenshot 1 for pair 14
+
+[2024.12.06-00.07.21:340][ 89]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.21:674][ 90]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00014/image1.png
+[2024.12.06-00.07.21:851][ 90]LogPython: . 
+
+[2024.12.06-00.07.21:858][ 90]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.21:870][ 90]LogPython: 
+Taking screenshot 2 for pair 14
+[2024.12.06-00.07.22:167][ 95]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.22:478][ 96]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00014/image2.png
+[2024.12.06-00.07.22:624][ 96]LogPython: . 
+
+[2024.12.06-00.07.22:633][ 96]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.22:644][ 96]LogPython: Taking screenshot 1 for pair 15
+
+[2024.12.06-00.07.22:872][101]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.23:180][102]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00015/image1.png
+[2024.12.06-00.07.23:349][102]LogPython: . 
+
+[2024.12.06-00.07.23:404][102]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.23:416][102]LogPython: 
+Taking screenshot 2 for pair 15
+[2024.12.06-00.07.23:679][107]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.23:992][108]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00015/image2.png
+[2024.12.06-00.07.24:152][108]LogPython: . 
+
+[2024.12.06-00.07.24:190][108]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.24:202][108]LogPython: Taking screenshot 1 for pair 16
+
+[2024.12.06-00.07.24:436][113]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.24:748][114]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00016/image1.png
+[2024.12.06-00.07.24:918][114]LogPython: . 
+
+[2024.12.06-00.07.24:972][114]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.24:984][114]LogPython: 
+Taking screenshot 2 for pair 16
+[2024.12.06-00.07.25:263][119]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.25:886][120]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00016/image2.png
+[2024.12.06-00.07.26:054][120]LogPython: . 
+
+[2024.12.06-00.07.26:132][120]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.26:144][120]LogPython: Taking screenshot 1 for pair 17
+
+[2024.12.06-00.07.26:541][125]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.27:166][126]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00017/image1.png
+[2024.12.06-00.07.27:351][126]LogPython: . 
+
+[2024.12.06-00.07.27:355][126]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.27:367][126]LogPython: 
+Taking screenshot 2 for pair 17
+[2024.12.06-00.07.27:896][131]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.28:213][132]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00017/image2.png
+[2024.12.06-00.07.28:399][132]LogPython: . 
+
+[2024.12.06-00.07.28:467][132]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.28:479][132]LogPython: Taking screenshot 1 for pair 18
+
+[2024.12.06-00.07.28:974][137]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.29:581][138]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00018/image1.png
+[2024.12.06-00.07.29:770][138]LogPython: . 
+
+[2024.12.06-00.07.29:840][138]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.29:854][138]LogPython: 
+Taking screenshot 2 for pair 18
+[2024.12.06-00.07.30:345][143]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.30:663][144]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00018/image2.png
+[2024.12.06-00.07.30:823][144]LogPython: . 
+
+[2024.12.06-00.07.30:831][144]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.30:844][144]LogPython: Taking screenshot 1 for pair 19
+
+[2024.12.06-00.07.31:342][149]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.07.31:657][150]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00019/image1.png
+[2024.12.06-00.07.31:815][150]LogPython: . 
+
+[2024.12.06-00.07.31:823][150]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.07.31:836][150]LogPython: 
+Taking screenshot 2 for pair 19
+[2024.12.06-00.07.32:140][155]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.07.32:722][156]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00019/image2.png
+[2024.12.06-00.07.32:889][156]LogPython: Finished! Unregistering tick handler
+
+[2024.12.06-00.10.05:135][694]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 315.580353
+[2024.12.06-00.10.06:138][697]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.06-00.10.06:138][698]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 316.246826, Update Interval: 300.785553
+[2024.12.06-00.12.40:946][483]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_0'.
+[2024.12.06-00.12.41:915][487]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2024.12.06-00.14.31:880][259]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-00.14.32:036][259]LogPackageLocalizationCache: Processed 52 localized package path(s) for 1 prioritized culture(s) in 0.013919 seconds
+[2024.12.06-00.14.32:048][259]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/5R/1S3PCGKJTTLDH2KWI7M3NU
+[2024.12.06-00.14.32:049][259]LogSavePackage: Moving '../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/1S3PCGKJTTLDH2KWI7M3NUBBBA7D61453F27EA09D4F68DFC6498B8.tmp' to '../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/5R/1S3PCGKJTTLDH2KWI7M3NU.uasset'
+[2024.12.06-00.14.32:092][259]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.429 ms
+[2024.12.06-00.14.32:139][259]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.06-00.14.32:139][259]LogContentValidation: Enabled validators:
+[2024.12.06-00.14.32:140][259]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.06-00.14.32:140][259]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.06-00.14.32:141][259]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.06-00.14.32:141][259]LogContentValidation: Display: Validating asset /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.12.06-00.14.32:143][259]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2024.12.06-00.14.42:803][499]Cmd: py "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py"
+[2024.12.06-00.14.42:818][499]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:79: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  if len(camera_actors) == 0:
+
+[2024.12.06-00.14.42:819][499]LogPython: None Found 1 CameraActor actors!
+
+[2024.12.06-00.14.42:822][499]LogPython: None CameraActor: CameraActor_UAID_F057A68E7C7B892D02_1475304129
+
+[2024.12.06-00.14.42:835][499]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:43: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  min_point = unreal.Vector(float('inf'), float('inf'), float('inf'))
+
+[2024.12.06-00.14.42:842][499]LogPython: . 
+
+[2024.12.06-00.14.42:847][499]LogPython: Time since last tick: 0.016579799354076385
+
+[2024.12.06-00.14.42:858][499]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.14.43:077][499]LogPython: . 
+
+[2024.12.06-00.14.43:082][499]LogPython: Time since last tick: 0.0770094022154808
+
+[2024.12.06-00.14.43:094][499]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.14.43:117][499]LogPython: . 
+
+[2024.12.06-00.14.43:127][499]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.14.43:138][499]LogPython: 
+Taking screenshot 2 for pair 0
+[2024.12.06-00.14.43:168][499]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A44C0) {x: 2119.831942, y: 2088.679217, z: -20.935985}>
+
+[2024.12.06-00.14.43:171][499]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A4A10) {x: 2044.991943, y: 2526.105716, z: -39.718758}>
+
+[2024.12.06-00.14.43:184][499]LogPython: . 
+
+[2024.12.06-00.14.43:194][499]LogPython: Time since last tick: 0.043839700520038605
+
+[2024.12.06-00.14.43:206][499]LogPython: Taking screenshot 1 for pair 1
+
+[2024.12.06-00.14.43:222][499]LogPython: . 
+
+[2024.12.06-00.14.43:229][499]LogPython: Time since last tick: 0.0664995014667511
+
+[2024.12.06-00.14.43:239][499]LogPython: 
+Taking screenshot 2 for pair 1
+[2024.12.06-00.14.43:266][499]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A4290) {x: 2044.991943, y: 2526.105716, z: -39.718758}>
+
+[2024.12.06-00.14.43:274][499]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A4970) {x: 2548.081319, y: 1562.247310, z: -11.067022}>
+
+[2024.12.06-00.14.43:286][499]LogPython: . 
+
+[2024.12.06-00.14.43:296][499]LogPython: Time since last tick: 0.03834019973874092
+
+[2024.12.06-00.14.43:308][499]LogPython: Taking screenshot 1 for pair 2
+
+[2024.12.06-00.14.43:344][500]LogPython: . 
+
+[2024.12.06-00.14.43:351][500]LogPython: Time since last tick: 0.06400710344314575
+
+[2024.12.06-00.14.43:364][500]LogPython: Taking screenshot 1 for pair 3
+
+[2024.12.06-00.14.44:014][505]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.14.44:636][506]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image1.png
+[2024.12.06-00.14.44:796][506]LogPython: . 
+
+[2024.12.06-00.14.44:807][506]LogPython: Time since last tick: 0.05449289828538895
+
+[2024.12.06-00.14.44:814][506]LogPython: 
+Taking screenshot 2 for pair 3
+[2024.12.06-00.14.44:842][506]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A4650) {x: 2548.081319, y: 1562.247310, z: -11.067022}>
+
+[2024.12.06-00.14.44:847][506]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A4880) {x: 3505.965885, y: 2332.421249, z: 13.547871}>
+
+[2024.12.06-00.14.45:266][511]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.14.45:585][512]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image2.png
+[2024.12.06-00.14.45:678][512]LogPython: . 
+
+[2024.12.06-00.14.45:682][512]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.14.45:695][512]LogPython: Taking screenshot 1 for pair 4
+
+[2024.12.06-00.14.45:999][517]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.14.46:664][518]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image1.png
+[2024.12.06-00.14.46:812][518]LogPython: . 
+
+[2024.12.06-00.14.46:816][518]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.14.46:829][518]LogPython: 
+Taking screenshot 2 for pair 4
+[2024.12.06-00.14.46:858][518]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A4A60) {x: 3505.965885, y: 2332.421249, z: 13.547871}>
+
+[2024.12.06-00.14.46:862][518]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A4060) {x: 3848.292395, y: 2524.436556, z: -16.167842}>
+
+[2024.12.06-00.14.47:354][523]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.14.47:741][524]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image2.png
+[2024.12.06-00.14.47:874][524]LogPython: Finished! Unregistering tick handler
+
+[2024.12.06-00.15.09:187][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 619.632690
+[2024.12.06-00.15.09:460][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.06-00.15.09:460][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 619.812866, Update Interval: 312.202515
+[2024.12.06-00.16.22:678][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-00.16.22:819][449]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/5R/1S3PCGKJTTLDH2KWI7M3NU
+[2024.12.06-00.16.22:821][449]LogSavePackage: Moving '../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Saved/1S3PCGKJTTLDH2KWI7M3NU98AA648549A21E6A9676D582255903AA.tmp' to '../../../../../../Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/5R/1S3PCGKJTTLDH2KWI7M3NU.uasset'
+[2024.12.06-00.16.22:893][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.683 ms (total: 425.112 ms)
+[2024.12.06-00.16.22:951][449]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.06-00.16.22:952][449]LogContentValidation: Enabled validators:
+[2024.12.06-00.16.22:952][449]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.06-00.16.22:952][449]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.06-00.16.22:952][449]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.06-00.16.22:952][449]LogContentValidation: Display: Validating asset /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.12.06-00.16.22:952][449]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2024.12.06-00.16.27:074][575]Cmd: py "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py"
+[2024.12.06-00.16.27:077][575]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:79: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  if len(camera_actors) == 0:
+
+[2024.12.06-00.16.27:077][575]LogPython: None Found 1 CameraActor actors!
+
+[2024.12.06-00.16.27:133][575]LogPython: None CameraActor: CameraActor_UAID_F057A68E7C7B892D02_1475304129
+
+[2024.12.06-00.16.27:146][575]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:43: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  min_point = unreal.Vector(float('inf'), float('inf'), float('inf'))
+
+[2024.12.06-00.16.27:153][575]LogPython: . 
+
+[2024.12.06-00.16.27:156][575]LogPython: Time since last tick: 0.016988199204206467
+
+[2024.12.06-00.16.27:170][575]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.16.27:410][576]LogPython: . 
+
+[2024.12.06-00.16.27:481][576]LogPython: Time since last tick: 0.12073910236358643
+
+[2024.12.06-00.16.27:494][576]LogPython: 
+Taking screenshot 2 for pair 0
+[2024.12.06-00.16.27:531][576]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A1000) {x: 2328.292395, y: 2524.436556, z: -16.167842}>
+
+[2024.12.06-00.16.27:539][576]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A10A0) {x: 3178.765414, y: 2169.557101, z: -0.875468}>
+
+[2024.12.06-00.16.28:117][581]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.16.28:468][582]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00000/image2.png
+[2024.12.06-00.16.28:552][582]LogPython: . 
+
+[2024.12.06-00.16.28:562][582]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.28:578][582]LogPython: Taking screenshot 1 for pair 1
+
+[2024.12.06-00.16.28:916][587]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.16.29:274][588]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image1.png
+[2024.12.06-00.16.29:366][588]LogPython: . 
+
+[2024.12.06-00.16.29:440][588]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.29:453][588]LogPython: 
+Taking screenshot 2 for pair 1
+[2024.12.06-00.16.29:486][588]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A0380) {x: 3178.765414, y: 2169.557101, z: -0.875468}>
+
+[2024.12.06-00.16.29:488][588]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A04C0) {x: 3481.895183, y: 1941.583774, z: 8.990036}>
+
+[2024.12.06-00.16.29:700][593]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.16.30:070][594]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image2.png
+[2024.12.06-00.16.30:212][594]LogPython: . 
+
+[2024.12.06-00.16.30:249][594]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.30:262][594]LogPython: Taking screenshot 1 for pair 2
+
+[2024.12.06-00.16.30:476][599]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.16.30:918][600]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image1.png
+[2024.12.06-00.16.31:060][600]LogPython: . 
+
+[2024.12.06-00.16.31:132][600]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.31:144][600]LogPython: 
+Taking screenshot 2 for pair 2
+[2024.12.06-00.16.31:179][600]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A0DD0) {x: 3481.895183, y: 1941.583774, z: 8.990036}>
+
+[2024.12.06-00.16.31:189][600]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A05B0) {x: 2757.250773, y: 2893.452019, z: 36.887505}>
+
+[2024.12.06-00.16.31:419][605]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.16.31:749][606]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image2.png
+[2024.12.06-00.16.31:866][606]LogPython: . 
+
+[2024.12.06-00.16.31:874][606]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.31:886][606]LogPython: Taking screenshot 1 for pair 3
+
+[2024.12.06-00.16.32:113][611]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.16.32:894][612]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image1.png
+[2024.12.06-00.16.33:044][612]LogPython: . 
+
+[2024.12.06-00.16.33:051][612]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.33:064][612]LogPython: 
+Taking screenshot 2 for pair 3
+[2024.12.06-00.16.33:096][612]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A0E20) {x: 2757.250773, y: 2893.452019, z: 36.887505}>
+
+[2024.12.06-00.16.33:099][612]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A0830) {x: 2672.409631, y: 3122.955074, z: 19.076028}>
+
+[2024.12.06-00.16.33:601][617]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.16.33:927][618]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image2.png
+[2024.12.06-00.16.34:088][618]LogPython: . 
+
+[2024.12.06-00.16.34:100][618]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.34:113][618]LogPython: Taking screenshot 1 for pair 4
+
+[2024.12.06-00.16.34:398][623]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.16.34:993][624]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image1.png
+[2024.12.06-00.16.35:156][624]LogPython: . 
+
+[2024.12.06-00.16.35:159][624]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.16.35:171][624]LogPython: 
+Taking screenshot 2 for pair 4
+[2024.12.06-00.16.35:202][624]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A10A0) {x: 2672.409631, y: 3122.955074, z: 19.076028}>
+
+[2024.12.06-00.16.35:205][624]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A01A0) {x: 3564.476730, y: 3380.850992, z: 43.707193}>
+
+[2024.12.06-00.16.35:714][629]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.16.36:343][630]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image2.png
+[2024.12.06-00.16.36:496][630]LogPython: Finished! Unregistering tick handler
+
+[2024.12.06-00.17.42:306][229]Cmd: py "C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py"
+[2024.12.06-00.17.42:308][229]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:80: DeprecationWarning: EditorLevelLibrary: Function 'get_editor_world' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Unreal Editor Subsystem
+  print(None, "Error: Could not find any CameraActor in the level.")
+
+[2024.12.06-00.17.42:308][229]LogPython: None Found 1 CameraActor actors!
+
+[2024.12.06-00.17.42:310][229]LogPython: None CameraActor: CameraActor_UAID_F057A68E7C7B892D02_1475304129
+
+[2024.12.06-00.17.42:323][229]LogPython: Warning: C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Unreal Engine/Scene_Capture/Scripts/scene_capture.py:44: DeprecationWarning: EditorLevelLibrary: Function 'get_all_level_actors' on 'EditorLevelLibrary' is deprecated: The Editor Scripting Utilities Plugin is deprecated - Use the function in Editor Actor Utilities Subsystem
+  max_point = unreal.Vector(float('-inf'), float('-inf'), float('-inf'))
+
+[2024.12.06-00.17.42:330][229]LogPython: . 
+
+[2024.12.06-00.17.42:334][229]LogPython: Time since last tick: 0.01669370010495186
+
+[2024.12.06-00.17.42:346][229]LogPython: Taking screenshot 1 for pair 0
+
+[2024.12.06-00.17.42:826][234]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.17.43:158][235]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00000/image1.png
+[2024.12.06-00.17.43:183][235]LogPython: . 
+
+[2024.12.06-00.17.43:255][235]LogPython: Time since last tick: 0.06204430013895035
+
+[2024.12.06-00.17.43:267][235]LogPython: 
+Taking screenshot 2 for pair 0
+[2024.12.06-00.17.43:301][235]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A15A0) {x: 3564.476730, y: 3380.850992, z: 43.707193}>
+
+[2024.12.06-00.17.43:312][235]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A1640) {x: 3204.716452, y: 4247.230680, z: 43.264862}>
+
+[2024.12.06-00.17.43:324][235]LogPython: delta: <Struct 'Vector' (0x000001AF7E2A01F0) {x: -359.760278, y: 866.379688, z: -0.442331}>
+
+[2024.12.06-00.17.43:560][240]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.17.43:869][241]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00000/image2.png
+[2024.12.06-00.17.43:979][241]LogPython: . 
+
+[2024.12.06-00.17.44:053][241]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.44:065][241]LogPython: Taking screenshot 1 for pair 1
+
+[2024.12.06-00.17.44:336][246]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.17.44:657][247]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image1.png
+[2024.12.06-00.17.44:790][247]LogPython: . 
+
+[2024.12.06-00.17.44:796][247]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.44:807][247]LogPython: 
+Taking screenshot 2 for pair 1
+[2024.12.06-00.17.44:834][247]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A1870) {x: 3204.716452, y: 4247.230680, z: 43.264862}>
+
+[2024.12.06-00.17.44:841][247]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A15A0) {x: 3947.252485, y: 4767.980649, z: 55.616371}>
+
+[2024.12.06-00.17.44:852][247]LogPython: delta: <Struct 'Vector' (0x000001AF7E2A01F0) {x: 742.536033, y: 520.749970, z: 12.351509}>
+
+[2024.12.06-00.17.45:108][252]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.17.45:432][253]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00001/image2.png
+[2024.12.06-00.17.45:557][253]LogPython: . 
+
+[2024.12.06-00.17.45:605][253]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.45:617][253]LogPython: Taking screenshot 1 for pair 2
+
+[2024.12.06-00.17.45:897][258]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.17.46:208][259]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image1.png
+[2024.12.06-00.17.46:340][259]LogPython: . 
+
+[2024.12.06-00.17.46:347][259]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.46:360][259]LogPython: 
+Taking screenshot 2 for pair 2
+[2024.12.06-00.17.46:390][259]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A18C0) {x: 3947.252485, y: 4767.980649, z: 55.616371}>
+
+[2024.12.06-00.17.46:394][259]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A1870) {x: 3954.004569, y: 4938.191137, z: 43.447969}>
+
+[2024.12.06-00.17.46:406][259]LogPython: delta: <Struct 'Vector' (0x000001AF7E2A01F0) {x: 6.752084, y: 170.210488, z: -12.168402}>
+
+[2024.12.06-00.17.46:686][264]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.17.47:016][265]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00002/image2.png
+[2024.12.06-00.17.47:133][265]LogPython: . 
+
+[2024.12.06-00.17.47:177][265]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.47:189][265]LogPython: Taking screenshot 1 for pair 3
+
+[2024.12.06-00.17.47:447][270]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.17.48:060][271]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image1.png
+[2024.12.06-00.17.48:195][271]LogPython: . 
+
+[2024.12.06-00.17.48:202][271]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.48:214][271]LogPython: 
+Taking screenshot 2 for pair 3
+[2024.12.06-00.17.48:249][271]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A0420) {x: 3954.004569, y: 4938.191137, z: 43.447969}>
+
+[2024.12.06-00.17.48:259][271]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A18C0) {x: 3857.670678, y: 4035.934411, z: 37.034522}>
+
+[2024.12.06-00.17.48:271][271]LogPython: delta: <Struct 'Vector' (0x000001AF7E2A01F0) {x: -96.333891, y: -902.256725, z: -6.413447}>
+
+[2024.12.06-00.17.48:503][276]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.17.49:092][277]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00003/image2.png
+[2024.12.06-00.17.49:236][277]LogPython: . 
+
+[2024.12.06-00.17.49:246][277]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.49:257][277]LogPython: Taking screenshot 1 for pair 4
+
+[2024.12.06-00.17.49:536][282]LogCore: Display: Tracing Screenshot "image1" taken with size: 1920 x 1080
+[2024.12.06-00.17.49:839][283]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image1.png
+[2024.12.06-00.17.50:022][283]LogPython: . 
+
+[2024.12.06-00.17.50:033][283]LogPython: Time since last tick: 0.125
+
+[2024.12.06-00.17.50:045][283]LogPython: 
+Taking screenshot 2 for pair 4
+[2024.12.06-00.17.50:080][283]LogPython: old location: <Struct 'Vector' (0x000001AF7E2A1550) {x: 3857.670678, y: 4035.934411, z: 37.034522}>
+
+[2024.12.06-00.17.50:090][283]LogPython: new location: <Struct 'Vector' (0x000001AF7E2A0420) {x: 4665.117113, y: 4023.593838, z: 39.242094}>
+
+[2024.12.06-00.17.50:103][283]LogPython: delta: <Struct 'Vector' (0x000001AF7E2A01F0) {x: 807.446435, y: -12.340573, z: 2.207572}>
+
+[2024.12.06-00.17.50:409][288]LogCore: Display: Tracing Screenshot "image2" taken with size: 1920 x 1080
+[2024.12.06-00.17.50:723][289]LogClient: High resolution screenshot saved as C:/Users/firek/Desktop/School/Senior Year 2/Semester 1/ECE528/Project/PAIR/Training Data/UE5 Data/Images/pair_00004/image2.png
+[2024.12.06-00.17.50:907][289]LogPython: Finished! Unregistering tick handler
+
+[2024.12.06-00.18.54:458][196]LogSlate: External Image Picker: DecompressImage failed
+[2024.12.06-00.19.55:323][615]LogShaderCompilers: Display: ================================================
+[2024.12.06-00.19.55:323][615]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Total job queries 429, among them cache hits 77 (17.95%), DDC hits 267 (62.24%), Duplicates 70 (16.32%)
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Tracking 282 distinct input hashes that result in 227 distinct outputs (80.50%)
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: RAM used: 1.21 MiB of 819.20 MiB budget. Usage: 0.15%
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Shaders Compiled: 15
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Average time worker was idle: 2.48 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.09 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Job execution time: average 2.09 s, max 4.04 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Job life time (pending + execution): average 2.14 s, max 4.10
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Shader code size: average 3.455 KiB, min 616 B, max 7.336 KiB
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.51 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Average processing rate: 1.58 jobs/sec
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Total thread time: 21.183 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Total thread preprocess time: 9.343 s
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Percentage time preprocessing: 44.11%
+[2024.12.06-00.19.55:379][615]LogShaderCompilers: Display: Effective parallelization: 2.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 2.09 sec, max 2.09 sec, min 2.09 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.78 sec, max 1.92 sec, min 1.64 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 1.27 sec, max 1.27 sec, min 1.27 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.25 sec, max 1.57 sec, min 1.09 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 1.12 sec, max 1.18 sec, min 1.06 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.73% of total time (compiled    3 times, average 1.25 sec, max 1.57 sec, min 1.09 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                  FVelocityPS - 16.84% of total time (compiled    2 times, average 1.78 sec, max 1.92 sec, min 1.64 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.76% of total time (compiled    3 times, average 0.90 sec, max 1.08 sec, min 0.80 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                  FVelocityVS - 10.59% of total time (compiled    2 times, average 1.12 sec, max 1.18 sec, min 1.06 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 9.88% of total time (compiled    1 times, average 2.09 sec, max 2.09 sec, min 2.09 sec)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: === Material stats ===
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Materials Translated:    119
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Material Translation Only: 0.04 s (27%)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: Material Cache Hits: 14 (12%)
+[2024.12.06-00.19.55:380][615]LogShaderCompilers: Display: ================================================
+[2024.12.06-00.20.28:639][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 939.084106
+[2024.12.06-00.20.28:963][884]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.06-00.20.28:963][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 939.324890, Update Interval: 316.540436
+[2024.12.06-00.22.08:018][326]LogSlate: Window 'Project Settings' being destroyed
+[2024.12.06-00.22.08:059][326]LogSlate: Window 'Project Settings' being destroyed
+[2024.12.06-00.22.22:816][761]LogSlate: Took 0.009403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.06-00.22.24:543][834]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.12.06-00.22.24:591][834]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.048 s
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: === Handled ensure: ===
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: 
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: Ensure condition failed: InOrthoZoom >= 1.0 && InOrthoZoom <= 1e25  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Public\EditorViewportClient.h] [Line: 242] 
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: 
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: Stack: 
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8d4fa67e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8d4e6393 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8d4d6894 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8da1990e UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd88aa5dec UnrealEditor-Engine.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8fd11d07 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8f940f00 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8f99f0eb UnrealEditor-Slate.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8f98fb6e UnrealEditor-Slate.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffd8f981db2 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffdf3e1d66f UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffdf3e06f16 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffdf3e1ff93 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffdf3e00e51 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffe2c2d83f1 USER32.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffe2c2d7eb1 USER32.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffdf3e20a96 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d13780a UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d15e33c UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d15e42a UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d1618a4 UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d1770c4 UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ff60d17a37a UnrealEditor.exe!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffe2d61259d KERNEL32.DLL!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: [Callstack] 0x00007ffe2de0af38 ntdll.dll!UnknownFunction []
+[2024.12.06-00.22.24:591][834]LogOutputDevice: Error: 

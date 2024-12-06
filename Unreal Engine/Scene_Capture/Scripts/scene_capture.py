@@ -14,7 +14,7 @@ TO USE:
 
 
 # number of pairs of images you want
-NUM_PAIRS_IMAGES = 5
+NUM_PAIRS_IMAGES = 200
 base_directory = r"C:\Users\firek\Desktop\School\Senior Year 2\Semester 1\ECE528\Project\PAIR\Training Data\UE5 Data"
 
 # the max distance the camera can move between each picture (x, y, z)
@@ -25,14 +25,17 @@ MAX_ROTATION = unreal.Rotator(10, 10, 30)
 
 # Helper functions
 def calculate_differences(old_location, new_location, old_rotation, new_rotation):
+    print("old location:", old_location)
+    print("new location:", new_location)
     delta_position = new_location - old_location
-    delta_x = delta_position.x
-    delta_y = delta_position.y
-    delta_z = delta_position.z
+    print("delta:", delta_position)
+    delta_x = abs(delta_position.x / 1000.0)      # convert unreal units to meters
+    delta_y = abs(delta_position.y / 1000.0)
+    delta_z = abs(delta_position.z / 1000.0)
 
-    delta_pitch = new_rotation.pitch - old_rotation.pitch
-    delta_roll = new_rotation.roll - old_rotation.roll
-    delta_yaw = new_rotation.yaw - old_rotation.yaw
+    delta_pitch = abs(new_rotation.pitch - old_rotation.pitch)
+    delta_roll = abs(new_rotation.roll - old_rotation.roll)
+    delta_yaw = abs(new_rotation.yaw - old_rotation.yaw)
 
     return (delta_x, delta_y, delta_z, delta_pitch, delta_roll, delta_yaw)
 
