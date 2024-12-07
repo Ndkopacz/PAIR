@@ -14,13 +14,16 @@ TO USE:
 
 
 # number of pairs of images you want
-NUM_PAIRS_IMAGES = 200
+NUM_PAIRS_IMAGES = 700
 base_directory = r"C:\Users\firek\Desktop\School\Senior Year 2\Semester 1\ECE528\Project\PAIR\Training Data\UE5 Data"
 
 # the max distance the camera can move between each picture (x, y, z)
-MAX_DISTANCE = unreal.Vector(1000, 1000, 30)
+MAX_DISTANCE = unreal.Vector(1000, 1000, 300)
 # the max rotation that can happen from 0, 0, 0 (roll, pitch, yaw)
 MAX_ROTATION = unreal.Rotator(10, 10, 30)
+# height and width in pixels for the screenshots
+SS_HEIGHT = 672
+SS_WIDTH = 672
 
 
 # Helper functions
@@ -93,11 +96,11 @@ class OnTick(object):
     
 
     def start(self):
-        self.tickcount = 0
+        self.tickcount = 200
         self.slate_post_tick_handle = unreal.register_slate_post_tick_callback(self.__tick__)
     
 
-    def move_camera(self, max_distance=MAX_DISTANCE, max_rotation=MAX_ROTATION, offset=300):
+    def move_camera(self, max_distance=MAX_DISTANCE, max_rotation=MAX_ROTATION, offset=1000):
         current_location = self.camera_actor.get_actor_location()
 
         random_offset = unreal.Vector(
@@ -133,8 +136,8 @@ class OnTick(object):
         print("Taking screenshot 1 for pair " + str(self.pair_id))
 
         unreal.AutomationLibrary.take_high_res_screenshot(
-            1920,
-            1080,
+            SS_WIDTH,
+            SS_HEIGHT,
             first_image_path,
             camera=self.camera_actor,
             comparison_tolerance=unreal.ComparisonTolerance.HIGH,
@@ -153,8 +156,8 @@ class OnTick(object):
         print("\nTaking screenshot 2 for pair " + str(self.pair_id))
 
         unreal.AutomationLibrary.take_high_res_screenshot(
-            1920,
-            1080,
+            SS_WIDTH,
+            SS_HEIGHT,
             second_image_path,
             camera=self.camera_actor,
             comparison_tolerance=unreal.ComparisonTolerance.HIGH,
